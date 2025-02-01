@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+  background-image: url('https://steamuserimages-a.akamaihd.net/ugc/1170321140105641126/47F1E70BD90DB25A97F3B761B07764F7F947287E/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false');
+}
+/* App.css */
+
+/* Styling global */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* App container styling */
+.App {
+  padding: 20px;
+  text-align: center;
+}
+
+.movie-list {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+  gap: 20px !important;
+  margin-top: 20px !important;
+}
+
+/* MovieCard component styling */
+.movie-card {
+  background-color: #fff !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+  overflow: hidden !important;
+  transition: transform 0.2s ease-in-out !important;
+}
+
+.movie-card:hover {
+  transform: translateY(-10px) !important;
+}
+
+.movie-card img {
+  width: 100% !important;
+  border-bottom: 2px solid #ccc !important;
+}
+
+.movie-card-content {
+  padding: 15px !important;
+}
+
+.movie-card-title {
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  margin-bottom: 10px !important;
+}
+
+.movie-card-description {
+  font-size: 0.9rem !important;
+  color: #555 !important;
+  margin-bottom: 10px !important;
+}
+
+.movie-card-rating {
+  font-size: 1rem !important;
+  color: #ffa500 !important;
+}
+
+/* Title Filter styling */
+.title-filter {
+  margin-bottom: 20px !important;
+}
+
+.rating-filter {
+  margin-bottom: 20px !important;
+}
+
+/* Ant Design Rating */
+.ant-rate-star {
+  color: #ffa500;
+  /* background-color: #ebf2bf; */
+}
+
+.App h1{
+  color:wheat;
+  background-color: rgb(148, 44, 192) !important;
+  border-radius: 10px;
+}
+.btn{
+  background-color: rgb(148, 44, 192) !important;
+  border-color: antiquewhite !important;
+  color: rgb(255, 255, 255) !important;
+}
+/* Styles globaux */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Conteneur principal */
+.description-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Titre du film */
+.movie-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* Description du film */
+.movie-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+/* Conteneur pour la vidéo */
+.trailer-container {
+  margin-bottom: 30px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Bouton retour */
+.back-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  background-color: rgb(148, 44, 192) !important;
+}
